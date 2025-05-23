@@ -1,0 +1,19 @@
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Esse é o Sceen Match");
+        System.out.println("Filme: Top Gun: Maverick");
+        
+        int anoDeLancamento = 2022;
+        System.out.println("Ano de lançamento: " + anoDeLancamento);
+        boolean incuidoNoPlano = true;
+        System.out.println("Incuido no plano: " + incuidoNoPlano);
+
+        double avaliacao = 8.1;
+        System.out.println("Avaliação: " + avaliacao);
+
+        String nomeDoFilme = "Top Gun: Maverick";
+        System.out.println("Nome do filme: " + nomeDoFilme);
+
+
+    }
+}
