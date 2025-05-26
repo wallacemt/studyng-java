@@ -1,0 +1,36 @@
+package br.com.alura.minhasmusicas.model;
+
+public class Audio {
+    private String title;
+    private int totalTimeReproducing;
+    private int totalLikes;
+    private double rating;
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public int getTotalTimeReproducing() {
+        return totalTimeReproducing;
+    }
+
+    public int getTotalLikes() {
+        return totalLikes;
+    }
+
+    public double getRating() {
+        return rating;
+    }
+
+    public void like() {
+        this.totalLikes++;
+    }
+
+    public void play() {
+        this.totalTimeReproducing++;
+    }
+}
